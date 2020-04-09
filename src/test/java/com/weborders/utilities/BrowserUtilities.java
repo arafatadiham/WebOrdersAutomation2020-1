@@ -117,6 +117,7 @@ public class BrowserUtilities {
      * to target window based on page title
      * @param title of the window to switch
      */
+    //(this is the testing for commit changes one more time)
     public static void scitchWindow(String title){
         Set<String> windowHandles = Driver.getDriver().getWindowHandles();
         for(String window : windowHandles){
